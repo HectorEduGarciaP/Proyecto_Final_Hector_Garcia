@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiApp1.Paginas.SUVPagina"
+             Title="SUVPagina" BackgroundColor = "DarkBlue">
+
+    <ScrollView>
+        <VerticalStackLayout>
+            <Button
+                x:Name="CounterBtn4"
+                Text="Regresar"
+                Margin="0,5,0,0"
+                Clicked="OnRegresarClicked1"/>
+
+                <Label FontSize="20" x:Name="suvLabel" Text=""  HorizontalOptions="Center" />
+
+            <Label x:Name="suvLabel1" FontSize="21" Text="" HorizontalOptions="CenterAndExpand" />
+
+            <Button
+                x:Name="BocinarV1"
+                Text="Bocinar"
+                Margin="0,10,0,0"
+                Clicked="BocinarV"
+                HorizontalOptions="CenterAndExpand" />
+            <Button
+                x:Name="EncenderV1"
+                Text="Encender"
+                Margin="0,10,0,0"
+                Clicked="EncenderV"
+                HorizontalOptions="CenterAndExpand" />
+            <Button
+                x:Name="ApagarV1"
+                Text="Apagar"
+                Margin="0,10,0,0"
+                Clicked="ApagarV"
+                HorizontalOptions="CenterAndExpand" />
+
+            <Button
+                x:Name="AcelerarV1"
+                Text="Acelerar"
+                Margin="0,10,0,0"
+                Clicked="AcelerarV"
+                HorizontalOptions="CenterAndExpand" />
+            <Button
+                x:Name="FrenarV1"
+                Text="Frenar"
+                Margin="0,10,0,0"
+                Clicked="FrenarV"
+                HorizontalOptions="CenterAndExpand" />
+
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

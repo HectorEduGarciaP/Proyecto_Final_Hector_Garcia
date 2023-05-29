@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiApp1.Paginas.Carros"
+             Title="Carros"
+             BackgroundColor = "DarkBlue">
+
+
+    <ScrollView>
+        <VerticalStackLayout>
+            <Button
+                x:Name="CounterBtn4"
+                Text="Regresar"
+                Clicked="OnRegresarClicked" />
+
+
+            <Button
+                x:Name="CounterBtn"
+                Text="sedan"
+                Clicked="OnCounterClicked"
+                HorizontalOptions="Center" />
+            <Button
+                x:Name="CounterBtn1"
+                Text="PickUp"               
+                Clicked="OnCounterClicked1"
+                HorizontalOptions="Center" />
+
+            <Button
+                x:Name="CounterBtn2"
+                Text="SUV"                
+                Clicked="OnCounterClicked2"
+                HorizontalOptions="Center" />
+
+            <Button
+                x:Name="CounterBtn3"
+                Text="cuatroX4"               
+                Clicked="OnCounterClicked3"
+                HorizontalOptions="Center" />
+
+            <Button
+                x:Name="CounterBtn8"
+                Text="Nuevo"
+                Margin="0,10,0,0"
+                Clicked="OnCounterClicked8"
+                HorizontalOptions="Center" />
+            
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

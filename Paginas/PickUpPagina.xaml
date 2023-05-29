@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiApp1.Paginas.PickUpPagina"
+             Title="PickUpPagina" BackgroundColor = "DarkBlue">
+
+    <ScrollView>
+        <VerticalStackLayout>
+            <Button
+                x:Name="CounterBtn4"
+                Text="Regresar"
+                Margin="0,5,0,0"
+                Clicked="OnRegresarClicked1"/>
+
+                <Label FontSize="20" x:Name="pickUpLabel" Text=""  HorizontalOptions="Center" />
+               
+           
+
+            <Label x:Name="pickUpLabel1" FontSize="21" Text="" HorizontalOptions="CenterAndExpand" />
+
+
+
+
+
+
+            <Button
+                x:Name="BocinarP1"
+                Text="Bocinar"
+                Margin="0,10,0,0"
+                Clicked="BocinarP"
+                HorizontalOptions="CenterAndExpand" />
+            <Button
+                x:Name="EncenderP1"
+                Text="Encender"
+                Margin="0,10,0,0"
+                Clicked="EncenderP"
+                HorizontalOptions="CenterAndExpand" />
+            <Button
+                x:Name="ApagarP1"
+                Text="Apagar"
+                Margin="0,10,0,0"
+                Clicked="ApagarP"
+                HorizontalOptions="CenterAndExpand" />
+            <Button
+                x:Name="AcelerarP1"
+                Text="Acelerar"
+                Margin="0,10,0,0"
+                Clicked="AcelerarP"
+                HorizontalOptions="CenterAndExpand" />
+            <Button
+                x:Name="FrenarP1"
+                Text="Frenar"
+                Margin="0,10,0,0"
+                Clicked="FrenarP"
+                HorizontalOptions="CenterAndExpand" />
+
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

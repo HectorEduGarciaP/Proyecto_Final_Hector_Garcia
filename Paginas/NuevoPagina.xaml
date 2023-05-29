@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiApp1.Paginas.NuevoPagina"
+             Title="NuevoPagina">
+    <ScrollView>
+        <VerticalStackLayout>
+            <Button
+                x:Name="CounterBtn5"
+                Text="Regresar"
+                Margin="0,5,0,0"
+                Clicked="OnRegresarClicked5"/>
+
+
+            <StackLayout Orientation="Horizontal">
+            </StackLayout>
+
+            <StackLayout>
+
+                <Label x:Name="nuevoLabel" />
+                <Entry x:Name="marcaEntry" Placeholder="Marca" />
+                <Entry x:Name="modeloEntry" Placeholder="Modelo" />
+                <Entry x:Name="colorEntry" Placeholder="Color" />
+                <Entry x:Name="anioEntry" Placeholder="Anio" />
+                <Entry x:Name="placaEntry" Placeholder="Placa" />
+                <Entry x:Name="tipoEntry" Placeholder="Tipo" />
+                <Entry x:Name="maximaEntry" Placeholder="VelocidadMaxima" />
+                <Button Text="Crear" Clicked="Nuevocarro" />
+                <!-- Resto de los elementos en la interfaz -->
+
+            </StackLayout>
+            <Label x:Name="nuevoLabel1" FontSize="21" Text="" HorizontalOptions="CenterAndExpand" />
+
+            <Button
+                x:Name="BocinarN1"
+                Text="Bocinar"
+                Margin="0,10,0,0"
+                Clicked="BocinarN"
+                HorizontalOptions="CenterAndExpand" />
+            <Button
+                x:Name="EncenderN1"
+                Text="Encender"
+                Margin="0,10,0,0"
+                Clicked="EncenderN"
+                HorizontalOptions="CenterAndExpand" />
+            <Button
+                x:Name="ApagarN1"
+                Text="Apagar"
+                Margin="0,10,0,0"
+                Clicked="ApagarN"
+                HorizontalOptions="CenterAndExpand" />
+            <Button
+                x:Name="AcelerarN1"
+                Text="Acelerar"
+                Margin="0,10,0,0"
+                Clicked="AcelerarN"
+                HorizontalOptions="CenterAndExpand" />
+            <Button
+                x:Name="FrenarN1"
+                Text="Frenar"
+                Margin="0,10,0,0"
+                Clicked="FrenarN"
+                HorizontalOptions="CenterAndExpand" />
+
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

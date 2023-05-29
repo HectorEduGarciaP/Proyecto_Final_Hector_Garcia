@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiApp1.Paginas.CuatroPagina"
+             Title="CuatroPagina" BackgroundColor = "DarkBlue">
+
+    <ScrollView>
+        <VerticalStackLayout>
+            <Button
+                x:Name="CounterBtn4"
+                Text="Regresar"
+                Margin="0,5,0,0"
+                Clicked="OnRegresarClicked1"/>
+            
+            <Label FontSize="20" x:Name="cuatroxLabel" Text=""  HorizontalOptions="Center" />
+
+
+
+            <Label x:Name="cuatroxLabel1" FontSize="21" Text="" HorizontalOptions="CenterAndExpand" />
+
+
+
+
+
+
+            <Button
+                x:Name="BocinarX1"
+                Text="Bocinar"
+                Margin="0,10,0,0"
+                Clicked="BocinarX"
+                HorizontalOptions="CenterAndExpand" />
+            <Button
+                x:Name="EncenderX1"
+                Text="Encender"
+                Margin="0,10,0,0"
+                Clicked="EncenderX"
+                HorizontalOptions="CenterAndExpand" />
+            <Button
+                x:Name="ApagarX1"
+                Text="Apagar"
+                Margin="0,10,0,0"
+                Clicked="ApagarX"
+                HorizontalOptions="CenterAndExpand" />
+            <Button
+                x:Name="AcelerarX1"
+                Text="Acelerar"
+                Margin="0,10,0,0"
+                Clicked="AcelerarX"
+                HorizontalOptions="CenterAndExpand" />
+            <Button
+                x:Name="FrenarX1"
+                Text="Frenar"
+                Margin="0,10,0,0"
+                Clicked="FrenarX"
+                HorizontalOptions="CenterAndExpand" />
+
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiApp1.MainPage" BackgroundColor = "DarkBlue">
+
+
+    <ScrollView>
+        <VerticalStackLayout
+             Spacing="50"
+            VerticalOptions="CenterAndExpand">
+
+
+            <Button Text="Vehiculos" Clicked="OnButtonClicked" HorizontalOptions="CenterAndExpand" />
+
+            <Button Text="Salir" Clicked="OnCerrarClicked" HorizontalOptions="CenterAndExpand" />
+
+
+        </VerticalStackLayout>
+    </ScrollView>
+
+
+</ContentPage>
+
+
